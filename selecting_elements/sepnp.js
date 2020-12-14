@@ -1,6 +1,5 @@
-var intro = document.getElementById("intro")
-console.log(intro)
-console.dir(intro)
+var h1 = document.getElementById("intro")
+
 
 var h = document.createElement("h1"); 
 var t = document.createTextNode("Selecting Elements");
