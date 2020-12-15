@@ -1,8 +1,4 @@
-var h1 = document.getElementById("intro")
+document.getElementById("intro").innerHTML = "Selecting Elements";
 
 
-var h = document.createElement("h1"); 
-var t = document.createTextNode("Selecting Elements");
-h.appendChild(t); 
- 
-document.body.appendChild(h); 
+
