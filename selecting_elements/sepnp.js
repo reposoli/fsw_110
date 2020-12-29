@@ -1,4 +1,4 @@
-document.getElementById("intro").innerHTML = "Selecting Elements";
+document.getElementById("sepnp").innerHTML = "Selecting Elements";
 
 
 
