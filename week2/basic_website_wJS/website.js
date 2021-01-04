@@ -3,6 +3,7 @@ var link = document.createTextNode("Home");
 a.appendChild(link);  
 a.href = "http://www.ammosoul.com/ammosoulartillery.html";  
 document.body.appendChild(a)
+a.style.paddingRight = '5%';
 
 var a = document.createElement('a');  
 var link = document.createTextNode("About"); 
@@ -15,6 +16,9 @@ var link = document.createTextNode("Contact");
 a.appendChild(link);  
 a.href = "http://www.ammosoul.com/ammosouldelivery.html";  
 document.body.appendChild(a)
+a.style.paddingLeft = '5%';
+
+
 
 var newH1 = document.createElement("h1")
 newH1.textContent = "AMMOSOUL"
