@@ -1,3 +1,4 @@
+
 var a = document.createElement('a');  
 var link = document.createTextNode("Home");
 a.appendChild(link);  
@@ -55,4 +56,5 @@ newOl.append(listItem)
 var footer = document.createElement("footer")
 footer.textContent = "© 2020 - Stephanie Olivares Footer "
 document.body.append(footer)
+
 

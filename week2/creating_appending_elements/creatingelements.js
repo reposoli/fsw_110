@@ -2,7 +2,6 @@ var newH1 = document.createElement("h1")
 newH1.textContent = "Welcome to my JS site"
 document.body.append(newH1)
 
-
 var newP = document.createElement("p")
 newP.textContent = "All of this was created with Javascript"
 document.body.append(newP)
@@ -30,3 +29,4 @@ newOl.append(listItem)
 var listItem = document.createElement("li")
 listItem.textContent = "Item Five"
 newOl.append(listItem)
+
