@@ -13,15 +13,25 @@ for (newH1 = 0; newH1 < 9; newH1 ++) {
 }
 
 //5
-var newOl = document.createElement("ol")
-newOl.textContent = ["Steve", " Larry", " Joe", " Shirley", " Steph"," Nate"," Rick"," Emily"]
-document.body.append(newOl)
+const names =  [
+    "steve", 
+    "larry", 
+    "joe", 
+    "shirley", 
+    "steph", 
+    "nate", 
+    "rick", 
+    "emily"]
 
+var newUl = document.createElement("ul")
+newUl.textContent = "List of Names"
+document.body.append(newUl)
 //6
-for (newOl = 0; newOl < 1; newOl ++) {
-    const names = document.createElement("li");
-    names.innerHTML = ["Steve", " Larry", " Joe", " Shirley", " Steph"," Nate"," Rick"," Emily"];
-    
-    document.body.appendChild(names);
+for (var i = 0; i < names.length; i++) {
+    newUl.innerHTML += "<li>" + names[i] + "</li>"
+    newUl.style.color = 'red';                        
+    newUl.style.backgroundColor = 'lightgray';
+
 }
+
 
