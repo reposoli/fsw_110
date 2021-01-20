@@ -1,0 +1,9 @@
+
+.box {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border: 6px solid black;
+    width: 50%;
+    height: 50%;
+}
