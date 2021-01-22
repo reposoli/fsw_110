@@ -18,7 +18,7 @@ box.addEventListener("dblclick", function() {
     box.style.backgroundColor = "green"
 })
 box.addEventListener("wheel", function() {
-    box.style.backgroundColor = "orange"
+   box.style.backgroundColor = "orange"
 })
 
 document.onkeydown = function () {

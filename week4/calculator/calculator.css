@@ -1,0 +1,27 @@
+* {
+    align-items: center;
+    font-size: 18px;
+    background-color: black;
+    color:firebrick;
+}
+div {
+    padding: 2%;
+    margin: 2%;
+    align-items: center;
+    text-align: center;
+
+}
+
+button {
+    border: 2px solid firebrick;
+    text-align: center;
+    width: 35px;
+    height:35px;
+    margin-top: 10px;
+    color: firebrick;
+    background-color: lightblue;  
+}
+#num1, #num2, #num3, #num4, #num5, #num6 {
+    border: 2px solid firebrick;
+    background-color: lightblue; 
+}
