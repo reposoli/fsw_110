@@ -8,18 +8,17 @@
    </head>
    <body>
        <div id = "boxLayout">
-            <form id="form">
+            <form name="form">
                 <h1 id = pageTitle></h1>
 
-                <h4 id = "username"></h4>
-                <input type="text" id="text-input" required/>
-                <h4 id = "password"></h4>
-                <input type="text" id="text-input" required/>
-                <h4 id = "verifyPassword"></h4>
-                <input type="text" id="text-input" required/>
-                <br><br>
+                Create a Username <input type="text" id="username" name = "username" required/>
+                Create a Password <input type="text" id="password" name = "password" required/>
+                Verify Password: <input type="text" id="verifyPassword" name = "verifyPassword" required/>
+                <br>
+
+                
              
-                <button id = button onClick = "buttonClick()" value ="reset">Submit</button>
+                <button id = "button" name="submit">Submit</button>
                 
                 
             </form>

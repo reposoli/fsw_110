@@ -21,16 +21,20 @@ button.classList.add("button");
 
 
 
+const form = document.form;
+
+form.addEventListener("submit", (event) => {
+    event.preventDefault()
+    alert
+    (`
+    Your New Username is: ${form.username.value}
+    Your New Password is: ${form.password.value}
+    Your Code: aMm0sOul
+    Use your first coupon code at your next checkout today!`);
+    })
 
 
-function buttonClick() { 
-    alert("aMm0sOul   <- Enter This Code at next checkout & Save Big");
-    
-  }
-  function reset() {
-    return (form.reset);
-  }
-
+   
 //  var pressedButton = document.getElementsByTagName("button")[0];
 //  pressedButton.addEventListener("click",function (event) {
 //    alert("Alert")
