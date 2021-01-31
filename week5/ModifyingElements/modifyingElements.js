@@ -15,7 +15,7 @@ username.textContent = "Verify Password";
 var boxLayout = document.getElementById("boxLayout")
 boxLayout.classList.add("boxLayout");
 
-var button = document.getElementById("button");
+ var button = document.getElementById("button");
 
 button.classList.add("button");
 
@@ -27,7 +27,15 @@ function buttonClick() {
     alert("aMm0sOul   <- Enter This Code at next checkout & Save Big");
     
   }
+  function reset() {
+    return (form.reset);
+  }
 
+//  var pressedButton = document.getElementsByTagName("button")[0];
+//  pressedButton.addEventListener("click",function (event) {
+//    alert("Alert")
+//  })
+  
   
 
  
