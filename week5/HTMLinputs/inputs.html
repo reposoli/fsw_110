@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Inputs</title>
+        <link href="inputs.css" rel="stylesheet"/>
+   </head>
+   <body>
+       <div id = boxLayout>
+            <form name = "form">
+                First Name: <input type="text" id="firstName" name = "firstName" required/>
+                Last Name: <input type="text" id="lastName" name = "lastName" required/><br>
+
+                Age: <input type="number" id="age" name = "age" required/>
+
+                Gender: 
+                Male<input type="radio" id="gender" value="Male"/> 
+                Female<input type="radio" id="gender" value="Female"/>
+                Gender Neutral<input type="radio" id="gender" value="noneYa"/><br>
+
+                Destination Location:
+                <select name = "option" required>
+                    <option value="Los Angeles, California">Los Angeles, California</option>
+                    <option value="NY">New York, New York</option>
+                    <option value="FL">Miami, Florida</option>
+                </select><br>
+
+                Dietary Restrictions:
+                None<input type="checkbox" id="noDiet" value="None" name="diet"/> 
+                Kosher<input type="checkbox" id="kosher" value=" Kosher "name ="diet"/> 
+                Vegetarian<input type="checkbox" id="vegetarian" value=" Veggie"name="diet"/> 
+                Lactose-Free<input type="checkbox" id="lactoseFree" value=" No Dairy"name="diet"/> 
+
+            
+                <br>
+                <button id = "button" name="submit">Submit</button>
+                
+                 
+            </form>
+        </div>
+        <script src="inputs.js"></script>
+   </body>
+</html>
