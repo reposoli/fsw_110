@@ -24,5 +24,5 @@ function formAlert() {
 }
 
 
-click.addEventListener("click", form.alert)
+submit.addEventListener("submit", form.alert)
 

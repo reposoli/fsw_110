@@ -8,7 +8,7 @@
    </head>
    <body>
        <div id = "boxLayout">
-            <form name="form">
+            <form id = "form" name="form">
                 <h1 id = pageTitle></h1>
 
                 Create a Username <input type="text" id="username" name = "username" required/>
@@ -18,7 +18,8 @@
 
                 
              
-                <button id = "button" name="submit">Submit</button>
+                <!-- <button id = "button" name="submit">Submit</button> -->
+                <input type="button" name = "Submit" value="Submit" id="btnSubmit" onclick="submitForm()">
                 
                 
             </form>

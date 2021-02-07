@@ -4,8 +4,12 @@ boxLayout.classList.add("boxLayout");
 var button = document.getElementById("button");
 button.classList.add("button");
 
+var submit = document.getElementByID(submit);
+var query = document.querySelector;
+
 
 const form = document.form;
+click.addEventListener("click", form.alert)
 
 form.addEventListener("submit", (event) => {
     event.preventDefault()
@@ -28,3 +32,5 @@ form.addEventListener("submit", (event) => {
     
     return(checkedInputs)
 }
+
+

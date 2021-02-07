@@ -6,24 +6,36 @@ pageTitle.classList.add("pageTitle")
 var username = document.getElementById("username")
 username.textContent = "Create a Username";
 
-var username = document.getElementById("password")
+var password = document.getElementById("password")
 username.textContent = "Create a Password";
 
-var username = document.getElementById("verifyPassword")
+var verifyPassword = document.getElementById("verifyPassword")
 username.textContent = "Verify Password";
 
 var boxLayout = document.getElementById("boxLayout")
 boxLayout.classList.add("boxLayout");
 
- var button = document.getElementById("button");
+ var button = document.getElementById("btnSubmit");
 
-button.classList.add("button");
+btnSubmit.classList.add("button");
 
+
+    function submitForm() {
+        // Get the first form with the name
+        // Usually the form name is not repeated
+        // but duplicate names are possible in HTML
+        // Therefore to work around the issue, enforce the correct index
+        document.getElementsByName('form')[0];
+        form.Submit(); // Submit the form
+        form.reset();  // Reset all form data
+        return false; // Prevent page refresh
+     }
 
 
 const form = document.form;
+if (password.value === verifyPassword.value){
 
-form.addEventListener("submit", (event) => {
+form.addEventListener("Submit", (event) => {
     event.preventDefault()
     alert
     (`
@@ -33,7 +45,7 @@ form.addEventListener("submit", (event) => {
     Use your first coupon code at your next checkout today!`);
     })
 
-
+}
    
 //  var pressedButton = document.getElementsByTagName("button")[0];
 //  pressedButton.addEventListener("click",function (event) {
