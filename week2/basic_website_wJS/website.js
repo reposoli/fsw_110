@@ -1,24 +1,28 @@
-
-var a = document.createElement('a');  
+var a = document.createElement('a');
 var link = document.createTextNode("Home");
-a.appendChild(link);  
-a.href = "http://www.ammosoul.com/ammosoulartillery.html";  
+a.appendChild(link);
+a.href = "http://www.ammosoul.com/ammosoulartillery.html";
 document.body.appendChild(a)
 a.style.paddingRight = '5%';
 
-var a = document.createElement('a');  
-var link = document.createTextNode("About"); 
-a.appendChild(link);  
-a.href = "http://www.ammosoul.com/ammosoulfaqs.html";  
+var a = document.createElement('a');
+var link = document.createTextNode("About");
+a.appendChild(link);
+a.href = "http://www.ammosoul.com/ammosoulfaqs.html";
 document.body.appendChild(a)
 
-var a = document.createElement('a');  
-var link = document.createTextNode("Contact"); 
-a.appendChild(link);  
-a.href = "http://www.ammosoul.com/ammosouldelivery.html";  
+var a = document.createElement('a');
+var link = document.createTextNode("Contact");
+a.appendChild(link);
+a.href = "http://www.ammosoul.com/ammosouldelivery.html";
 document.body.appendChild(a)
 a.style.paddingLeft = '5%';
 
+var a = document.createElement('a')
+a.textContent = "Soli.nyc"
+a.href = "https://www.soli.nyc"
+document.body.append(a)
+a.style.paddingLeft = '5%';
 
 
 var newH1 = document.createElement("h1")
@@ -56,5 +60,3 @@ newOl.append(listItem)
 var footer = document.createElement("footer")
 footer.textContent = "© 2020 - Stephanie Olivares Footer "
 document.body.append(footer)
-
-
